@@ -1,0 +1,97 @@
++++
+title = "Contact"
+date = false
+searchHidden = true
++++
+<head>
+<style>
+
+input[type=text], select {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+label{
+  color: white;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin: 8px 0;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  color: black;
+  font-size: 16px;
+  resize: none;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #55555d;
+  color: white;
+  font-size: 15px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition-duration: 0.2s;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #55555da4;
+  
+}
+
+.contact {
+  border-radius: 10px;
+  background-color: #2e2e33;
+  padding: 20px 20px 20px 20px;
+  width: 560px;
+}
+
+
+</style>
+</head>
+<body>
+    <center>
+    <div class="contact">
+    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSesy4uxHnmwIpxVzuNdgXWzE5BjIXcOEuPGqhiOthqtCS3JZA/formResponse?usp=sf_link" target="hidden_iframe" onsubmit="submitted=true;">
+        
+        <label for="name">Name</label>
+        <input type="text" id="entry.756196463" name="entry.756196463">
+  
+        <label for="name">Email</label>
+        <input type="text" id="entry.1770911802" name="entry.1770911802">
+    
+        <label for="name">Subject</label>
+        <input type="text" id="entry.1780240798" name="entry.1780240798">
+  
+        <label for="lname">Message</label>
+        <textarea id="entry.1032608724" name="entry.1032608724"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div class="contact">
+</center>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+</body>
